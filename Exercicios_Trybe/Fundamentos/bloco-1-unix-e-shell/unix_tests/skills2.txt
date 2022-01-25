@@ -6,3 +6,6 @@ paciencia
 virtude
 conhecimento
 esperança
+paciencia
+empatia
+React
