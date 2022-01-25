@@ -8,3 +8,4 @@ conhecimento
 esperança
 paciencia
 empatia
+React
