@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+            <meta charset="UTF-8">
+            <title>Primeiro Portifólio Web</title>
+    </head>
+    <body>
+        <h1>Dimitri Felix Cerqueira</h1>
+        <img src="" alt="">
+        <p>My name is Dimitri, I'm 21 years old. I got marriage 2 months ago with a beautiful woman. I'm a english speaker and teacher, I like to play basketall but at this moment I didn't use to play it. I'm a student of I.T. at Trybe.</p>
+        <p>Brasileiro, Mogi das Cruzes - São Paulo</p>
+        <ul>
+        Knowledge;
+        
+        </ul>
+        <a href=""></a>
+        <a href=""></a>
+        <ol></ol>
+        <strong></strong>
+        <em></em>
+    </body>
+</html>
