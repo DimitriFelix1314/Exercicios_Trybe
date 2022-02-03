@@ -137,11 +137,27 @@
 
 //exercicio 10
 
+// let array = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// for (let firstIndex = 1; firstIndex < array.length; firstIndex += 1) {
+//     for (let secondIndex = 0; secondIndex < firstIndex; secondIndex += 1) {
+//       if (array[firstIndex] < array[secondIndex]) {
+//         let posicao = array[firstIndex];
+//         array[firstIndex] = array[secondIndex];
+//         array[secondIndex] = posicao;
+//       }
+//     }
+//   }
+
+//   console.log(array);
+
+//exercicio 11
+
 let array = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 for (let firstIndex = 1; firstIndex < array.length; firstIndex += 1) {
     for (let secondIndex = 0; secondIndex < firstIndex; secondIndex += 1) {
-      if (array[firstIndex] < array[secondIndex]) {
+      if (array[firstIndex] > array[secondIndex]) {
         let posicao = array[firstIndex];
         array[firstIndex] = array[secondIndex];
         array[secondIndex] = posicao;
@@ -150,7 +166,5 @@ for (let firstIndex = 1; firstIndex < array.length; firstIndex += 1) {
   }
 
   console.log(array);
-
-//exercicio 11
 
 //exercicio 12
