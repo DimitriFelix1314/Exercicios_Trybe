@@ -109,19 +109,47 @@
 
 //exercicios 9
 
-let numbers = [];
+// let numbers = [];
 
-for (let i=1; i<=25; i+=1) {
-    numbers.push(i);
-}
+// for (let i=1; i<=25; i+=1) {
+//     numbers.push(i);
+// }
 
-for (let a = 0; a < numbers.length; a += 1){
-    console.log(numbers[a] / 2);
-};
+// for (let a = 0; a < numbers.length; a += 1){
+//     console.log(numbers[a] / 2);
+// };
 
 //Exercicios bonus
 
+// let array = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// for (let firstIndex = 1; firstIndex < array.length; firstIndex += 1) {
+//     for (let secondIndex = 0; secondIndex < firstIndex; secondIndex += 1) {
+//       if (array[firstIndex] < array[secondIndex]) {
+//         let posicao = array[firstIndex];
+//         array[firstIndex] = array[secondIndex];
+//         array[secondIndex] = posicao;
+//       }
+//     }
+//   }
+
+//   console.log(array);
+
 //exercicio 10
+
+let array = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for (let firstIndex = 1; firstIndex < array.length; firstIndex += 1) {
+    for (let secondIndex = 0; secondIndex < firstIndex; secondIndex += 1) {
+      if (array[firstIndex] < array[secondIndex]) {
+        let posicao = array[firstIndex];
+        array[firstIndex] = array[secondIndex];
+        array[secondIndex] = posicao;
+      }
+    }
+  }
+
+  console.log(array);
 
 //exercicio 11
 
