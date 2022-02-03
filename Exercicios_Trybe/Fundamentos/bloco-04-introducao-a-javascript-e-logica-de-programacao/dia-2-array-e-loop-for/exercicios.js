@@ -99,24 +99,30 @@
 
 //another way
 
+// let numbers = [];
+
+// for (let i=1; i<=25; i+=1) {
+//     numbers.push(i);
+// }
+
+// console.log(numbers)
+
+//exercicios 9
+
 let numbers = [];
 
 for (let i=1; i<=25; i+=1) {
     numbers.push(i);
 }
 
-console.log(numbers)
-
-// //exercicios 9
-
-// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+for (let a = 0; a < numbers.length; a += 1){
+    console.log(numbers[a] / 2);
+};
 
 //Exercicios bonus
 
-// //exercicios 10
+//exercicio 10
 
-// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+//exercicio 11
 
-// //exercicios 11
-
-// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+//exercicio 12
